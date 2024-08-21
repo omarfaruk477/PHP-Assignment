@@ -55,7 +55,7 @@ if (file_exists( __DIR__ .'/autoload.php')){
 			<ul class="top-social f-right">
 
 			<?php foreach($social as $icon) : ?>
-				<li><a href="#"><i class="<?php echo $icon["name"]; ?>"></i></a></li>
+				<li><a href="#"><?php echo $icon["name"];?></a></li>
 			<?php endforeach ; ?>	
 
 			</ul>
@@ -78,8 +78,8 @@ if (file_exists( __DIR__ .'/autoload.php')){
     <a href="#" class="nav-toggle">Toggle Navigation</a>
     <nav class="cmn-tile-nav">
 		<ul class="clearfix">
-			<li class="colour-1"><a href="index.html">Home</a></li>
-			<li class="colour-2"><a href="menu.html">Menu</a></li>
+			<li class="colour-1"><a href="index.php">Home</a></li>
+			<li class="colour-2"><a href="menu.php">Menu</a></li>
 			<li class="colour-3"><a href="location.html">Location</a></li>
 			<li class="colour-4"><a href="archive.html">Blog</a></li>
 			<li class="colour-5"><a href="reservation.html">Reservation</a></li>
