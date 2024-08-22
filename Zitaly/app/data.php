@@ -36,31 +36,35 @@ $headerTitle = [
 $navbar     =   [
     [
         "title"     =>  "Home",
-        "link"      =>  "#"
+        "link"      =>  "index.php"
     ],
     [
         "title"     =>  "Menu",
-        "link"      =>  "#"
+        "link"      =>  "menu.php"
     ],
     [
         "title"     =>  "Location",
-        "link"      =>  "#"
+        "link"      =>  "location.php"
     ],
     [
         "title"     =>  "Blog",
-        "link"      =>  "#"
+        "link"      =>  "archive.php"
     ],
     [
-        "title"     =>  "Location",
-        "link"      =>  "#"
+        "title"     =>  "Reservation",
+        "link"      =>  "reservation.php"
     ],
     [
-        "title"     =>  "Location",
-        "link"      =>  "#"
+        "title"     =>  "Our Staff",
+        "link"      =>  "staff.php"
     ],
     [
-        "title"     =>  "Location",
-        "link"      =>  "#"
+        "title"     =>  "News",
+        "link"      =>  "news.php"
+    ],
+    [
+        "title"     =>  "Gallery",
+        "link"      =>  "gallery.php"
     ]
  ];
 

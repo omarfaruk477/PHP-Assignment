@@ -82,7 +82,7 @@ if (file_exists( __DIR__ .'/autoload.php')){
 			<?php 
 			$j = 1;
 			foreach ($navbar as $menu) : ?>
-			<li class="colour-<?php echo $j; $j++; ?>"><a href="index.php"><?php echo $menu["title"];?></a></li>
+			<li class="colour-<?php echo $j; $j++; ?>"><a href="<?php echo $menu["link"];?>"><?php echo $menu["title"];?></a></li>
 			<?php endforeach ; ?>
 
 		</ul>
