@@ -70,7 +70,7 @@ if (file_exists( __DIR__ .'/autoload.php')){
 	<div class="site-title">
 		<div class="zerogrid">
 			<div class="row">
-				<h2 class="t-center">Truely the best restaurant in town - The New York Times</h2>
+				<h2 class="t-center"><?php echo $headerTitle["title"];?></h2>
 			</div>
 		</div>
 	</div>
@@ -78,14 +78,13 @@ if (file_exists( __DIR__ .'/autoload.php')){
     <a href="#" class="nav-toggle">Toggle Navigation</a>
     <nav class="cmn-tile-nav">
 		<ul class="clearfix">
-			<li class="colour-1"><a href="index.php">Home</a></li>
-			<li class="colour-2"><a href="menu.php">Menu</a></li>
-			<li class="colour-3"><a href="location.html">Location</a></li>
-			<li class="colour-4"><a href="archive.html">Blog</a></li>
-			<li class="colour-5"><a href="reservation.html">Reservation</a></li>
-			<li class="colour-6"><a href="staff.html">Our Staff</a></li>
-			<li class="colour-7"><a href="news.html">News</a></li>
-			<li class="colour-8"><a href="gallery.html">Gallery</a></li>
+
+			<?php 
+			$j = 1;
+			foreach ($navbar as $menu) : ?>
+			<li class="colour-<?php echo $j; $j++; ?>"><a href="index.php"><?php echo $menu["title"];?></a></li>
+			<?php endforeach ; ?>
+
 		</ul>
     </nav>
 	

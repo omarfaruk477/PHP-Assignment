@@ -28,7 +28,41 @@ $logo = [
     "link"      => "index.php"
 ];
 
+$headerTitle = [
+    "title"     => "ঢাকার মজার কিছু খাবার দোকান এবং ঠিকানা"
+];
 
+//Navbar Menu
+$navbar     =   [
+    [
+        "title"     =>  "Home",
+        "link"      =>  "#"
+    ],
+    [
+        "title"     =>  "Menu",
+        "link"      =>  "#"
+    ],
+    [
+        "title"     =>  "Location",
+        "link"      =>  "#"
+    ],
+    [
+        "title"     =>  "Blog",
+        "link"      =>  "#"
+    ],
+    [
+        "title"     =>  "Location",
+        "link"      =>  "#"
+    ],
+    [
+        "title"     =>  "Location",
+        "link"      =>  "#"
+    ],
+    [
+        "title"     =>  "Location",
+        "link"      =>  "#"
+    ]
+ ];
 
 
 
