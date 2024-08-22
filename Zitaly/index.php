@@ -55,7 +55,7 @@ if (file_exists( __DIR__ .'/autoload.php')){
 			<ul class="top-social f-right">
 
 			<?php foreach($social as $icon) : ?>
-				<li><a href="#"><?php echo $icon["name"];?></a></li>
+				<li><a href="<?php echo $icon["Link"];?> " target="_blank"><?php echo $icon["name"];?></a></li>
 			<?php endforeach ; ?>	
 
 			</ul>
@@ -64,7 +64,7 @@ if (file_exists( __DIR__ .'/autoload.php')){
 	<!--////////////////////////////////////Header-->
 	<header>
 		<div class="zerogrid">
-			<center><div class="logo"><img src="images/logo.png"></div></center>
+			<center><div class="logo"><img src="<?php echo $logo["image"];?>" style=" "></div></center>
 		</div>
 	</header>
 	<div class="site-title">

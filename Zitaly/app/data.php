@@ -6,27 +6,27 @@ $headerTop = [
 
 $social  =   [
     [
-        "name"      => "O",
-        "Link"      =>  "#"
+        "name"      => '<i class="fa fa-facebook"></i>',
+        "Link"      =>  "https://www.facebook.com/"
     ],
     [
-        "name"      => "M",
-        "Link"      =>  "#"
+        "name"      => '<i class="fa fa-twitter"></i>',
+        "Link"      =>  "https://x.com/omarfaruk477"
     ],
     [
-        "name"      => "A",
-        "Link"      =>  "#"
+        "name"      => '<i class="fa fa-linkedin"></i>',
+        "Link"      =>  "https://www.linkedin.com/in/omarfaruk477/"
     ],
     [
-        "name"      => "R",
-        "Link"      =>  "#"
+        "name"      => '<i class="fa fa-github"></i>',
+        "Link"      =>  "https://github.com/omarfaruk477"
     ]
-    
-    
-    
 ];
 
-
+$logo = [
+    "image"     => "logo.png",
+    "link"      => "index.php"
+];
 
 
 
